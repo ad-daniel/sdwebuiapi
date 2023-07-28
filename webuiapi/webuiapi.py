@@ -788,7 +788,7 @@ class WebUIApi:
                 time.sleep(check_interval)
 
 
-## Interface for extensions
+# Interface for extensions
 
 
 # https://github.com/mix1009/model-keyword
@@ -964,7 +964,7 @@ class ControlNetInterface:
         guess_mode: bool = True,
         seed: int = -1,
         subseed: int = -1,
-        subseed_strength: int = -1,
+        subseed_strength: float = 0.0,
         sampler_index: str = "",
         batch_size: int = 1,
         n_iter: int = 1,  # Iteration
